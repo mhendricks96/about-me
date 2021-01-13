@@ -4,7 +4,7 @@
 
 I built a web page about myself. It describes a bit about myself, my education, the jobs that i have had.
 
-### Author: Student/Group Name
+### Author: Michael Hendricks
 
 ### Links and Resources
 
