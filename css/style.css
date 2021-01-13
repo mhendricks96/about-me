@@ -25,3 +25,13 @@ ul {
   color: yellow;
   text-align: center;
 }
+
+#goals {
+  color: white;
+}
+
+ol {
+  background-color: red;
+  text-align: center;
+  font-size: 20px;
+}
