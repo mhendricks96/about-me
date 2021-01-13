@@ -30,3 +30,15 @@ if(questionTwo === 'yes' || questionTwo === 'y'){
 } else {
   alert('are you paying attention to the questions?');
 }
+
+var questionThree = prompt('Do you think Eazy is a good boy?').toLowerCase();
+
+if(questionThree === 'yes' || questionThree === 'y'){
+  //console.log('What insight! He really is. You must really know dogs!');
+  alert('What insight! He really is. You must really know dogs!');
+} else if(questionThree === 'no' || questionThree === 'n'){
+  alert('Well, you must be alot of fun at parties. Why would you say that? Eazy is a very good boy!');
+} else {
+  alert('Ok, you definitely are not paying attention');
+}
+
