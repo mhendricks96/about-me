@@ -57,9 +57,9 @@ var questionFive = prompt('Ok, lets see if you have been paying attention. Do I 
 
 if(questionFive === 'yes' || questionFive === 'y'){
   //console.log('No, no, no, no. you must not be too great at math, because I know you wouldnt just skip through my questions');
-  alert('No, no, no, no. you must not be too great at math, because I know you wouldnt just skip through my questions');
+  alert('No, no, no, no. you must not be too great at math, ' + username + ' because I know you wouldnt just skip through my questions');
 } else if( questionFive === 'no' || questionFive === 'n'){
-  alert('Wonderful! You have an attention span of at least 4 questions!');
+  alert('Wonderful, ' + username + '! You have an attention span of at least 4 questions!');
 } else {
-  alert('Goodness, you are hopless');
+  alert(username + ' , you are hopeless');
 }
