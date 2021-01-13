@@ -1,16 +1,18 @@
-# LAB - Number
+# LAB - 02
 
-## Project Name
+## About Me
 
-I built an app with a direct and powerful purpose. My app does all of the things that it accomplishes well. Here  I describe the purpose and functionality so those that visit my README understand the app.
+I built a web page about myself. It describes a bit about myself, my education, the jobs that i have had.
 
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* Any Links you used as
+
+* As always, Morgan Jackson and Mohsin Behi are my collaborators, muses, and inspirations.
+* [used for general questions and tips](w3schools.com)
 * [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+
+* daily journal and submission questions here
+* I'm super glad i got to practice the if/else statements a bunch. It was the one thing I didnt really understand after 102 and now i feel much more comfrortable.
