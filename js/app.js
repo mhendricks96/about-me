@@ -42,3 +42,24 @@ if(questionThree === 'yes' || questionThree === 'y'){
   alert('Ok, you definitely are not paying attention');
 }
 
+var questionFour = prompt('Do you think I have any kids?').toLowerCase();
+
+if(questionFour === 'yes' || questionFour === 'y'){
+  //console.log('Nope, no kids for me');
+  alert('Nope, no kids for me');
+} else if(questionFour === 'n' || questionFour === 'no'){
+  alert('Very good.');
+} else {
+  alert('looks like someone is just pressing random buttons');
+}
+
+var questionFive = prompt('Ok, lets see if you have been paying attention. Do I have more children than dogs?').toLowerCase();
+
+if(questionFive === 'yes' || questionFive === 'y'){
+  //console.log('No, no, no, no. you must not be too great at math, because I know you wouldnt just skip through my questions');
+  alert('No, no, no, no. you must not be too great at math, because I know you wouldnt just skip through my questions');
+} else if( questionFive === 'no' || questionFive === 'n'){
+  alert('Wonderful! You have an attention span of at least 4 questions!');
+} else {
+  alert('Goodness, you are hopless');
+}
