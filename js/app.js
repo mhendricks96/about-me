@@ -64,4 +64,3 @@ if (questionFive === 'yes' || questionFive === 'y') {
   alert(username + ' , you are hopeless');
 }
 
-
