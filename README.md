@@ -14,5 +14,6 @@ I built a web page about myself. It describes a bit about myself, my education, 
 
 ### Reflections and Comments
 
-* daily journal and submission questions here
 * I'm super glad i got to practice the if/else statements a bunch. It was the one thing I didnt really understand after 102 and now i feel much more comfrortable.
+
+* I am really starting to get comfortable with CSS. its starting to make sense that you just name an element and then tell it what to do.
