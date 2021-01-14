@@ -24,6 +24,8 @@ ul {
   font-size: 20px;
   color: yellow;
   text-align: center;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 #goals {
@@ -34,4 +36,6 @@ ol {
   background-color: red;
   text-align: center;
   font-size: 20px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
