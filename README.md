@@ -11,6 +11,7 @@ I built a web page about myself. It describes a bit about myself, my education, 
 * As always, Morgan Jackson and Mohsin Behi are my collaborators, muses, and inspirations.
 * [used for general questions and tips](w3schools.com)
 * [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
+* [font awesome]https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
 
 ### Reflections and Comments
 
