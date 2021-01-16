@@ -64,3 +64,16 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert(username + ' , you are hopeless');
 }
 
+var myAge = '33';
+
+var userGuess = prompt('How old do you think I am? To help you out, I will tell you that I am at least 30, and not yet than 40');
+
+var AgePossibilities = ['30','31','32','33','34','35','36','37','38','39'];
+
+if (userGuess === myAge) {
+  alert('Great job! I am 33 years old');
+} else {
+  alert('nope');
+}
+
+
