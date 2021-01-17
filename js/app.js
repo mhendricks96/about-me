@@ -17,6 +17,7 @@ if (answerOne === 'yes' || answerOne === 'y') {
   alert('Nope, one state lower');
 } else if (answerOne === 'no' || answerOne === 'n') {
   alert('Good guess');
+  score++;
 } else {
   alert('ummmm...weird answer');
 }
@@ -26,6 +27,7 @@ var answerTwo = prompt('Do you think I have a dog?').toLowerCase();
 if (answerTwo === 'yes' || answerTwo === 'y') {
   //console.log('Yea! Of course I do! I have a wonderful old boy named Eazy-E');
   alert('Yea! Of course I do! I have a wonderful old boy named Eazy-E');
+  score++;
 } else if (answerTwo === 'no' || answerTwo === 'n') {
   alert('What do you think I am, a monster? Just so you know, I have a dog named Eazy-E');
 } else {
@@ -37,6 +39,7 @@ var answerThree = prompt('Do you think Eazy is a good boy?').toLowerCase();
 if (answerThree === 'yes' || answerThree === 'y') {
   //console.log('What insight! He really is. You must really know dogs!');
   alert('What insight! He really is. You must really know dogs!');
+  score++;
 } else if (answerThree === 'no' || answerThree === 'n') {
   alert('Well, you must be alot of fun at parties. Why would you say that? Eazy is a very good boy!');
 } else {
@@ -50,6 +53,7 @@ if (answerFour === 'yes' || answerFour === 'y') {
   alert('Nope, no kids for me');
 } else if (answerFour === 'n' || answerFour === 'no') {
   alert('Very good.');
+  score++;
 } else {
   alert('looks like someone is just pressing random buttons');
 }
@@ -61,6 +65,7 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert('No, no, no, no. you must not be too great at math, ' + username + ' because I know you wouldnt just skip through my questions');
 } else if (answerFive === 'no' || answerFive === 'n') {
   alert('Wonderful, ' + username + '! You have an attention span of at least 4 questions!');
+  score++;
 } else {
   alert(username + ' , you are hopeless');
 }
@@ -74,6 +79,7 @@ for (var i = 0; i < 4; i++) {
 
   if(userGuess === eazyAge) {
     alert('Great job! Eazy is 10 years old!');
+    score++;
     break;
   } else if (userGuess < eazyAge && i < 3) {
     alert('Eazy is no puppy. He is older than that, try again.');
@@ -89,14 +95,21 @@ var myFavoriteSports = ['basketball','football','baseball','rugby','cricket','th
 var rightAnswer = false;
 
 for (var j = 0; j < 6; j++) {
-  var sportsGuess = prompt('What sports do I like?');
+  var sportsGuess = prompt('What is a sport that I like?');
   for (var k = 0; k < myFavoriteSports.length; k++) {
     if(sportsGuess === myFavoriteSports[k]) {
-      alert('got it');
+      alert('Yea, that is one!');
       rightAnswer = true;
+      score++;
     }
   }
   if (rightAnswer) {
     break;
   }
 }
+
+alert('I like a lot of sports. Just to name a few- basketball, football. baseball, rugby, cricket, and the challenge. And yes, the challenge on MTV is a sport');
+
+console.log(score);
+
+alert('Well, ' + username + ' ' + score + ' out of 7 aint too bad at all. Thanks for being a good sport');
