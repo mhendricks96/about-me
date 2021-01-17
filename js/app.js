@@ -65,25 +65,20 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert(username + ' , you are hopeless');
 }
 
-var myAge = 33;
-var numberGuesses = 4;
-console.log(userGuess);
 
 
-for (var i = 0; i < numberGuesses; i++) {
-  var userGuess = parseInt(prompt('How old do you think I am? To help you out, I will tell you that I am at least 30, and not yet than 40'));
+for (var i = 0; i < 4; i++) {
+  var userGuess = parseInt(prompt('How old do you think Eazy-E is? I will tell you now, that he is less than 15'));
+  var eazyAge = 10;
+
+  if(userGuess === eazyAge) {
+    alert('Great job! Eazy is 10 years old!');
+    break;
+  } else if (userGuess < eazyAge && i < 3) {
+    alert('Eazy is no puppy. He is older than that, try again.');
+  } else if(userGuess > eazyAge && i < 3) {
+    alert('goodness, he is not that old!');
+  } else if (i === 3) {
+    alert('Well, clearly you have no idea. Eazy is 10 years old');
+  }
 }
-console.log(userGuess);
-
-if(userGuess === myAge) {
-  correctAnswersTotal++;
-  alert('Great job! I am 33');
-} if (userGuess < myAge && i !==3) {
-  alert('older than that, try again');
-} else if(userGuess > myAge && i !== 3) {
-  alert('no, I am younger than that');
-} else {
-  alert('did you not see the clue?');
-}
-
-console.log(i);
