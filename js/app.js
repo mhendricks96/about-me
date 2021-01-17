@@ -67,9 +67,10 @@ if (answerFive === 'yes' || answerFive === 'y') {
 
 
 
+var eazyAge = 10;
+
 for (var i = 0; i < 4; i++) {
   var userGuess = parseInt(prompt('How old do you think Eazy-E is? I will tell you now, that he is less than 15'));
-  var eazyAge = 10;
 
   if(userGuess === eazyAge) {
     alert('Great job! Eazy is 10 years old!');
@@ -83,3 +84,19 @@ for (var i = 0; i < 4; i++) {
   }
 }
 
+
+var myFavoriteSports = ['basketball','football','baseball','rugby','cricket','the challenge'];
+var rightAnswer = false;
+
+for (var j = 0; j < 6; j++) {
+  var sportsGuess = prompt('What sports do I like?');
+  for (var k = 0; k < myFavoriteSports.length; k++) {
+    if(sportsGuess === myFavoriteSports[k]) {
+      alert('got it');
+      rightAnswer = true;
+    }
+  }
+  if (rightAnswer) {
+    break;
+  }
+}
