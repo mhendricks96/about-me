@@ -67,7 +67,7 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert('Wonderful, ' + username + '! You have an attention span of at least 4 questions!');
   score++;
 } else {
-  alert(username + ' , you are hopeless');
+  alert(username + ', you are hopeless');
 }
 
 
@@ -84,7 +84,7 @@ for (var i = 0; i < 4; i++) {
   } else if (userGuess < eazyAge && i < 3) {
     alert('Eazy is no puppy. He is older than that, try again.');
   } else if(userGuess > eazyAge && i < 3) {
-    alert('goodness, he is not that old!');
+    alert('Goodness, he is not that old!');
   } else if (i === 3) {
     alert('Well, clearly you have no idea. Eazy is 10 years old');
   }
