@@ -1,5 +1,6 @@
 'use strict';
 console.log('hello world');
+var score = 0;
 
 
 //get user name and offer greeting
@@ -64,16 +65,25 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert(username + ' , you are hopeless');
 }
 
-var myAge = '33';
+var myAge = 33;
+var numberGuesses = 4;
+console.log(userGuess);
 
-var userGuess = prompt('How old do you think I am? To help you out, I will tell you that I am at least 30, and not yet than 40');
 
-var AgePossibilities = ['30','31','32','33','34','35','36','37','38','39'];
+for (var i = 0; i < numberGuesses; i++) {
+  var userGuess = parseInt(prompt('How old do you think I am? To help you out, I will tell you that I am at least 30, and not yet than 40'));
+}
+console.log(userGuess);
 
-if (userGuess === myAge) {
-  alert('Great job! I am 33 years old');
+if(userGuess === myAge) {
+  correctAnswersTotal++;
+  alert('Great job! I am 33');
+} if (userGuess < myAge && i !==3) {
+  alert('older than that, try again');
+} else if(userGuess > myAge && i !== 3) {
+  alert('no, I am younger than that');
 } else {
-  alert('nope');
+  alert('did you not see the clue?');
 }
 
-
+console.log(i);
