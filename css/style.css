@@ -50,3 +50,9 @@ header {
   padding: 30px;
   font-size: 18px;
 }
+
+ol {
+  list-style-type:decimal;
+  text-align: center;
+  list-style-position: inside;
+}
