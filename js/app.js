@@ -73,8 +73,9 @@ if (answerFive === 'yes' || answerFive === 'y') {
 
 
 var eazyAge = 10;
+var attemptsRemaining = 4;
 
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i < attemptsRemaining; i++) {
   var userGuess = parseInt(prompt('How old do you think Eazy-E is? I will tell you now, that he is less than 15'));
 
   if(userGuess === eazyAge) {
@@ -93,8 +94,9 @@ for (var i = 0; i < 4; i++) {
 
 var myFavoriteSports = ['basketball','football','baseball','rugby','cricket','the challenge'];
 var rightAnswer = false;
+var guessesLeft;
 
-for (var j = 0; j < 6; j++) {
+for (var j = 0; j < guessesLeft; j++) {
   var sportsGuess = prompt('What is a sport that I like?');
   for (var k = 0; k < myFavoriteSports.length; k++) {
     if(sportsGuess === myFavoriteSports[k]) {
