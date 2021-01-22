@@ -7,7 +7,7 @@ var score = 0;
 
 
 
-
+// Functions
 
 // question one
 
@@ -33,9 +33,6 @@ function questionOne() {
   }
 
 }
-questionOne();
-
-
 
 
 
@@ -58,12 +55,9 @@ function questionTwo() {
     alert('are you paying attention to the questions?');
   }
 
-  questionTwo();
 
-
-
-
-
+  
+  
   //question three
 
   function questionThree() {
@@ -82,7 +76,6 @@ function questionTwo() {
 
   }
 
-  questionThree();
 
 
 
@@ -103,7 +96,6 @@ function questionTwo() {
       alert('looks like someone is just pressing random buttons');
     }
 
-    questionFour();
 
 
 
@@ -124,10 +116,7 @@ function questionTwo() {
       }
 
     }
-    questionFive();
-
-
-
+    
 
 
     // question Six
@@ -156,9 +145,6 @@ function questionTwo() {
         }
       }
     }
-
-    questionSix();
-
 
 
 
@@ -193,6 +179,14 @@ function questionTwo() {
 
     }
 
+    // Runnning the functions
+
+    questionOne();
+    questionTwo();
+    questionThree();
+    questionFour();
+    questionFive();
+    questionSix();
     questionSeven();
 
     console.log(score);
