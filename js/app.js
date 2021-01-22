@@ -2,6 +2,9 @@
 console.log('hello world');
 var score = 0;
 
+// Global Variables
+
+
 
 //get user name and offer greeting
 var username = prompt('What is your name?');
